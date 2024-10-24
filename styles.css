@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.input-panel {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.list-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.item-list {
+    list-style: none;
+}
+
+.list-item {
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
